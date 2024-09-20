@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../img/favicon/main/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../img/favicon/main/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../img/favicon/main/favicon-16x16.png"
+    />
+    <title>2024 김흥준 웹포트폴리오</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <div class="container">
+      <div class="text_box">
+        <!-- <picture><img src="../img/main/user.png" alt="" /></picture> -->
+        <div class="ui">
+          <h3 class="ui-ani">UXUI designer</h3>
+        </div>
+        <h1 id="typed-output"></h1>
+      </div>
+
+      <div class="butterfly"></div>
+      <div class="butterfly2"></div>
+      <div class="background"></div>
+      <div class="blinking-light"></div>
+      <div class="blinking-light2"></div>
+      <div class="blinking-light3"></div>
+    </div>
+  </body>
+
+  <script>
+    $("header").load("../inc/header.html");
+  </script>
+  <script>
+    var options = {
+      strings: [
+        "<span class='blue'>사용자 경험</span>을<br>중요시하는<br>디자이너 <span class='blue'>김흥준</span>입니다.",
+      ],
+      typeSpeed: 50,
+      backSpeed: 25,
+      showCursor: false, // 커서 비활성화
+    };
+
+    var typed = new Typed("#typed-output", options);
+  </script>
+</html>

@@ -1,0 +1,121 @@
+.works {
+  font-weight: bold;
+  color: #111;
+}
+.container {
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 220px;
+  padding-bottom: 150px;
+}
+.btns {
+  display: flex;
+  gap: 54px;
+  font-weight: bold;
+  padding-bottom: 54px;
+  cursor: pointer;
+}
+
+button {
+  font-size: 18px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+}
+.menu.active {
+  background-color: #1c5cbb;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.grid {
+  width: 1240px;
+}
+.photo {
+  width: 390px;
+  height: 390px;
+}
+.grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.element-item {
+  width: 390px;
+  margin: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.text_box {
+  padding-top: 18px;
+}
+.text_box h3 {
+  padding-bottom: 6px;
+}
+.text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.paris {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/work/paris-icon.png");
+  background-size: cover;
+}
+.busan {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/work/busan-icon.png");
+  background-size: cover;
+}
+.naver {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/work/naver-icon.png");
+  background-size: cover;
+}
+.burger {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/work/burger-icon.png");
+  background-size: cover;
+}
+.ps {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/work/ps-icon.png");
+  background-size: cover;
+}
+.cs {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/work/cs-icon.png");
+  background-size: cover;
+}
+.ai {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/work/ai-icon.png");
+  background-size: cover;
+}
+.grid h3 {
+  color: #1c5cbb;
+  font-weight: 600;
+}
+.grid p {
+  font-weight: 600;
+  color: #222;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}

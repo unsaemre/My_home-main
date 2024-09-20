@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="../css/common.css" />
+<link
+  rel="stylesheet"
+  href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+/>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+<header>
+  <div class="header_wrap">
+    <div class="logo">
+      <h1>
+        <a href="../page/main.html"> 김흥준 </a>
+      </h1>
+    </div>
+    <ul class="gnb">
+      <li><a href="../page/about.html" class="aobut">ABOUT</a></li>
+      <li><a href="../page/works.html" class="works">WORKS</a></li>
+      <li class="contact_btn"><img src="../img/main/bars.png" alt="" /></li>
+    </ul>
+
+    <div class="contacts">
+      <!-- <div class="close_btn">
+        <img src="../img/main/close.png" alt="" />
+      </div> -->
+      <div class="info">
+        <div class="c_logo">
+          <img src="../img/main/logo.jpg" alt="" />
+        </div>
+        <h5>
+          더 다양한 작품을 보고싶으시거나 궁금한 점은 아래 연락처로 연락주시거나
+          SNS를 확인해보세요!
+        </h5>
+        <h2>contact</h2>
+        <h5>Phone : +82 10-5062-7933</h5>
+        <h5>Email : gmdwns9516@gmail.com</h5>
+        <h2>Social</h2>
+        <div class="sns">
+          <i class="xi-facebook"></i>
+          <i class="xi-github"></i>
+          <i class="xi-twitter"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  $(".contact_btn").click(function () {
+    $(".close_btn").toggleClass("active");
+    $(".contacts").toggleClass("active");
+  });
+
+  $(".close_btn").click(function () {
+    $(".contacts").removeClass("active");
+    $(".close_btn").removeClass("active");
+  });
+
+  $(document).mouseup(function (e) {
+    if ($(".contacts").has(e.target).length === 0) {
+      $(".contacts").removeClass("active");
+    }
+  });
+</script>

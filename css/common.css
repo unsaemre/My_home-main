@@ -1,0 +1,94 @@
+header {
+  width: 100vw;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  background-color: hsla(0, 0%, 100%, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}
+.header_wrap {
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #222;
+  width: 1600px;
+  margin: 0 auto;
+  font-size: 18px;
+  height: 90px;
+}
+.header_wrap ul {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.header_wrap .gnb {
+  font-weight: 400;
+  color: #666;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 500;
+}
+.more {
+  cursor: pointer;
+}
+
+.contacts {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 0;
+  height: 100vh;
+  background-color: #222;
+  color: #fff;
+  z-index: 100;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden;
+  z-index: 10000;
+}
+
+.contacts.active {
+  position: fixed;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+}
+.close_btn {
+  position: absolute;
+  top: 26px;
+  right: 40px;
+  cursor: pointer;
+}
+.info {
+  padding-left: 50px;
+  padding-top: 80px;
+  height: 100vh;
+}
+.c_logo {
+  width: 80px;
+  margin-bottom: 60px;
+}
+.c_logo img {
+  width: 100%;
+  border-radius: 50px;
+}
+.contacts h5 {
+  width: 300px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.contacts h2 {
+  margin-top: 60px;
+  margin-bottom: 22px;
+  font-size: 22px;
+}
+.sns {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
