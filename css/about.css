@@ -41,6 +41,14 @@ section h1 {
   font-weight: 500;
 }
 
+.section_01 picture {
+  margin-right: auto;
+}
+.section_01 picture img{
+  width: 55%;
+  object-fit: cover;
+}
+
 /* section 2 */
 .section_02 {
   margin: 0 auto;
